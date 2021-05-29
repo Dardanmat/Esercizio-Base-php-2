@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Esercizio 2 php</title>
+    </head>
+    <body>
+        <center><h1>Esercizio 2 php</h1></center>
+        <br>
+        <hr>
+        <p style="text-align: center">Scrivere un programma che permetta di inserire in un form i dati anagrafici di una persona 
+            (nome, cognome, data di nascita, comune e provincia di nascita) e
+            stampi in un'altra pagina se la persona e' maggiorenne o minorenne</p>
+        
+        <br>
+        <form action="maggiorenne_o_minorenne.php" method="post">
+            <center>
+                <table>
+                    <tr>
+                        <td><label>Nome:</label></td>
+                        <td><input type="text" name="nome"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Cognome:</label></td>
+                        <td><input type="text" name="cognome"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Data di nascita:</label></td>
+                        <td><input type="date" name="data_di_nascita"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Comune:</label></td>
+                        <td><input type="text" name="comune"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Provincia di nascita:</label></td>
+                        <td><input type="text" name="provincia_di_nascita"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="Invia"></td>
+                    </tr>
+                </table>
+            </center>
+        </form> 
+    </body>
+</html>
